@@ -28,7 +28,20 @@ Maquina Ideal
 - Memória RAM: 16 GB, 32 GB ou mais
 - Disco: SSD pelo 512 Gb ou 1 Tb
 
+Importante:
+- Um computador/notebook Intel/AMD pode rodar emuladores Android (somente)
+- Um computador/notebook Mac/Apple pode rodar emuladores Android e iOS
+
 Executar testes, tanto no local ou no remoto:
 - emuladores
 - aparelhos fisicos
 
+
+Através do APK Info, vamos descobrir 2 informações sobre o App alvo:
+- appPackage:  com.saucelabs.mydemoapp.android
+- appActivity: com.saucelabs.mydemoapp.android.view.activities.SplashActivity
+
+Tipos de Apps:
+- Nativo: criado especificamente para um sistema operacional
+- Hibrido: são gerados dois apps a partir do mesmo código
+- PWA/WebDav: site disfarçado de app
