@@ -17,13 +17,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/Iterasys/MyDemoApp147/issues"
   },
   "homepage": "https://github.com/Iterasys/MyDemoApp147#readme",
   "devDependencies": {
     "@wdio/appium-service": "^9.29.0",
+    "@wdio/cli": "^9.29.1",
     "@wdio/cucumber-framework": "^9.29.0",
     "@wdio/local-runner": "^9.29.0",
     "@wdio/spec-reporter": "^9.29.0",
